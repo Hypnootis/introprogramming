@@ -17,7 +17,7 @@ print_this = ""
 starting_year = 2005
 
 while starting_year <= 2010:
-    print_this += f"{str(starting_year)} "
+    print_this += str(starting_year) + " "
     starting_year += 1
 
-print(starting_year) 
+print(print_this) 
