@@ -4,3 +4,8 @@ movie = {"name": "Pulp Fiction",
          "genre": "Crime, Drama",
          "duration": 154}
 print("WITH a loop:\n")
+
+for i in movie:
+    print(movie[i])
+
+print("WITHOUT a loop:\n")
