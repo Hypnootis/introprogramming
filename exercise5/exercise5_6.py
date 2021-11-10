@@ -8,4 +8,10 @@ print("WITH a loop:\n")
 for i in movie:
     print(movie[i])
 
-print("WITHOUT a loop:\n")
+print("\nWITHOUT a loop:\n")
+
+print(movie["name"])
+print(movie["year"])
+print(movie["director"])
+print(movie["genre"])
+print(movie["duration"])
