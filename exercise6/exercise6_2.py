@@ -6,7 +6,7 @@ while True:
 
     else:
         try:
-            if 1 < user_table < 10:
+            if 1 < user_table <= 10:
                 for i in range(10):
                     i += 1
                     print(f"{user_table} x {i} = {user_table * (i)}")
